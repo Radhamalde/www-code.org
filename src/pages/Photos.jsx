@@ -1,7 +1,8 @@
+import "./Home.css"
 function Photos() {
   return (
     <main>
-      <h1>insertpicshere</h1>
+      <h1>Pictures!</h1>
     </main>
   )
 }

@@ -1,8 +1,9 @@
+import "./Home.css"
 function About() {
   return (
     <main>
-      <h1>WWW.Code</h1>
-      <p>Teaching coding and engineering in West Willow.</p>
+      <h1>About WWW.Code</h1>
+      <p>What is WWW.Code?</p>
     </main>
   )
 }

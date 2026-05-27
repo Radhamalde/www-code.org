@@ -1,17 +1,4 @@
-/*import "./App.css"
-
-function App() {
-  return (
-    <div>
-      <h1>WWW.Code</h1>
-      <p>If you can see this, React is working.</p>
-    </div>
-  )
-}
-
-export default App */
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
-
 import Home from "./pages/Home.jsx"
 import About from "./pages/About.jsx"
 import Projects from "./pages/Projects.jsx"
@@ -23,23 +10,30 @@ import "./App.css"
 function App() {
   return (
     <BrowserRouter>
-
-      <nav className="navbar">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/photos">Photos</Link>
-        <Link to="/contact">Contact</Link>
-      </nav>
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/photos" element={<Photos />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-
+      <div className="app">
+        <nav className="navbar">
+          <div className="logo-container">
+            <div className="logo">Code West Willow</div>
+          </div>
+          <div className="nav-links">
+            <Link to="/"> Home </Link>
+            <Link to="/about"> About </Link>
+            <Link to="/projects"> Projects </Link>
+            <Link to="/photos"> Photos </Link>
+            <Link to="/contact"> Contact </Link>
+          </div>
+        </nav>
+        <main className="page-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/photos" element={<Photos />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <footer> Copyright © 2024 Code West Willow. All rights reserved. </footer>
+      </div>
     </BrowserRouter>
   )
 }

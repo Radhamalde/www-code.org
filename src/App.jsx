@@ -2,9 +2,8 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import Home from "./pages/Home.jsx"
 import About from "./pages/About.jsx"
 import Projects from "./pages/Projects.jsx"
-import Photos from "./pages/Photos.jsx"
 import Contact from "./pages/Contact.jsx"
-
+import logo from "./assets/logo.png"
 import "./App.css"
 
 function App() {
@@ -13,14 +12,13 @@ function App() {
       <div className="app">
         <nav className="navbar">
           <div className="logo-container">
-            <div className="logo">Code West Willow</div>
+            <a href="/"> <img src={logo} className="logo" alt="Img" /> </a>
           </div>
           <div className="nav-links">
-            <Link to="/"> Home </Link>
-            <Link to="/about"> About </Link>
-            <Link to="/projects"> Projects </Link>
-            <Link to="/photos"> Photos </Link>
-            <Link to="/contact"> Contact </Link>
+            <Link to="/"> HOME </Link>
+            <Link to="/about"> ABOUT </Link>
+            <Link to="/projects"> PROJECTS </Link>
+            <Link to="/contact"> CONTACT </Link>
           </div>
         </nav>
         <main className="page-content">
@@ -28,11 +26,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/photos" element={<Photos />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
-        <footer> Copyright © 2024 Code West Willow. All rights reserved. </footer>
+        <footer> Copyright © West Willow Will: Coding For Change. www-code.org, All rights reserved. </footer>
       </div>
     </BrowserRouter>
   )

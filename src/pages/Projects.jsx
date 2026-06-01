@@ -2,7 +2,7 @@ import "./Home.css"
 function Projects() {
   return (
     <main>
-      <h1>Projects Completed</h1>
+      <h1>Projects Built By Students</h1>
       <p>.</p>
     </main>
   )

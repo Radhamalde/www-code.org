@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./Home.css"
 function About() {
   return (
@@ -31,7 +32,7 @@ function About() {
         <div className="eyebrow">End of Course</div>
       Upon completing the course, students earned a personalized WWW.CODE certificate and celebrated their accomplishments with a fun end-of-course party. 
       They took home a summary of what they learned and a list of resources to continue exploring coding and engineering on their own. <br/><br/>
-        <div className="learnmore"><a href="/projects" className="learnmorebtn">Learn more</a></div>
+        <div className="learnmore"><Link to ="/projects" className="learnmorebtn">Learn more</Link></div>
       </div>
     </main>
     

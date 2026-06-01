@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import { HashRouter, Routes, Route, Link } from "react-router-dom"
 import Home from "./pages/Home.jsx"
 import About from "./pages/About.jsx"
 import Projects from "./pages/Projects.jsx"
@@ -8,11 +8,11 @@ import "./App.css"
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app">
         <nav className="navbar">
           <div className="logo-container">
-            <a href="/"> <img src={logo} className="logo" alt="Img" /> </a>
+            <Link to="/"> <img src={logo} className="logo" alt="Img" /> </Link>
           </div>
           <div className="nav-links">
             <Link to="/"> HOME </Link>
@@ -31,7 +31,7 @@ function App() {
         </main>
         <footer> Copyright © West Willow Will: Coding For Change. www-code.org, All rights reserved. </footer>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

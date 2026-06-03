@@ -226,3 +226,76 @@ textarea {
   cursor: pointer;
 }
 
+/*MOBEILE */
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 22px;
+    padding: 12px;
+  }
+
+  .hero {
+    margin: 20px;
+  }
+
+  .section,
+  .section2 {
+    grid-template-columns: 1fr;
+    margin: 40px 15px;
+    gap: 20px;
+  }
+
+  .text {
+    padding: 25px;
+  }
+
+  .board {
+    height: auto;
+    max-height: 400px;
+    transform: none;
+  }
+
+  .about1,
+  .about2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 35px 25px;
+    font-size: 16px;
+  }
+
+  .contactbackground {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+  }
+
+  .contact-info {
+    margin: 20px;
+    padding-top: 20px;
+  }
+
+  .contact-form form {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  .name-row {
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+  }
+}

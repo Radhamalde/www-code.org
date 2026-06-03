@@ -260,7 +260,7 @@ textarea {
 
   .board {
     height: auto;
-    max-height: 70px;
+    max-height: 0px;
   }
 
   .about1,

@@ -1,7 +1,7 @@
 # WWW-Code Website
 
 ## Description
-This is a website designed to support the WWW-Code: West Willow Will, Coding For Change, Davis Projects for Peace Initiative. Using React and Vite, the website is responsive and designed to be simple, easy to navigate and showcase the program's goals and outcomes.
+WWW-Code.org is a website designed to support the WWW-Code: West Willow Will, Coding For Change, Davis Projects for Peace Initiative. Using React and Vite, the website is responsive and designed to be simple, easy to navigate and showcase the program's goals and outcomes.
 
 ## Project Structure
 ```text

@@ -1,16 +1,50 @@
-# React + Vite
+# WWW-Code Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is a website designed to support the WWW-Code: West Willow Will, Coding For Change, Davis Projects for Peace Initiative. Using React and Vite, the website is responsive and designed to be simple, easy to navigate and showcase the program's goals and outcomes.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+```text
+.
+├── dist
+│   ├── assets
+│   │   ├── arduinoboard-WrEXMIxP.jpg
+│   │   ├── classroompic-ClYIqXYZ.jpg
+│   │   ├── index-aRY2Lwq1.js
+│   │   ├── index-C9hFo1AS.css
+│   │   └── logo-QizmGdJa.png
+│   ├── favicon.svg
+│   ├── icons.svg
+│   └── index.html
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   ├── CNAME
+│   ├── favicon.svg
+│   └── icons.svg
+├── README.md
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── assets
+│   │   ├── arduinoboard.jpg
+│   │   ├── classroompic.jpg
+│   │   ├── hero.png
+│   │   ├── logo.png
+│   │   ├── react.svg
+│   │   ├── scratch.jpg
+│   │   └── vite.svg
+│   ├── index.css
+│   ├── main.jsx
+│   └── pages
+│       ├── About.jsx
+│       ├── Contact.jsx
+│       ├── Home.css
+│       ├── Home.jsx
+│       └── Projects.jsx
+└── vite.config.js
+```
+## Future Improvements
+For this project, I added the responsiveness feature after I coded most of it. In the future the responsiveness design could be improved by coding the responsive design from the beginning.
